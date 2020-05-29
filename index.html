@@ -179,7 +179,7 @@
       
         
         <li class="menu-item menu-item-home">
-          <a href="/%20" rel="section">
+          <a href="/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
@@ -189,7 +189,7 @@
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/categories/%20" rel="section">
+          <a href="/categories/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
             
@@ -199,7 +199,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/tags/%20" rel="section">
+          <a href="/tags/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
@@ -208,8 +208,18 @@
         </li>
       
         
+        <li class="menu-item menu-item-photo">
+          <a href="/photo/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-image"></i> <br />
+            
+            photo
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-about">
-          <a href="/about/%20" rel="section">
+          <a href="/about/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
             
@@ -219,9 +229,9 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/photos/%20" rel="section">
+          <a href="/archives/" rel="section">
             
-              <i class="menu-item-icon fa fa-fw fa-image"></i> <br />
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             草木一栏
           </a>
@@ -578,6 +588,8 @@
     </div>
   </div>
 
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1338174742&auto=1&height=66"></iframe>
+
   <aside id="sidebar" class="sidebar">
     
     <div class="sidebar-inner">
@@ -585,6 +597,7 @@
       
 
       
+
 
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
@@ -599,7 +612,7 @@
             
               <div class="site-state-item site-state-posts">
               
-                <a href="/photos/%20%7C%7C%20image">
+                <a href="/archives/%7C%7Carchive">
               
                   <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">日志</span>
@@ -652,15 +665,9 @@
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
 
 
 
-  <span class="post-meta-divider">|</span>
-
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
 
 
 <div>
@@ -840,6 +847,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'tewLkqBwf7MeigGAy1IQ91lN-gzGzoHsz',
+        appKey: 'TBji7UzTnKFo9MTsx8ajrGUX',
+        placeholder: '朋友请说好……',
+        avatar:'hide',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
