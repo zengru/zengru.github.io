@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b4ffeb;
+  background: #8adbc4;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2662,7 +2662,7 @@ embed {
 }
 body {
   background: url("https://source.unsplash.com/1600x900/?flower");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
 }
