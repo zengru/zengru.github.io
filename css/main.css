@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #d7e8ff;
+  background: #621ff1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2661,7 +2661,7 @@ embed {
   display: inline-block;
 }
 body {
-  background: url("https://source.unsplash.com/1600x900/?cherryblossoms");
+  background: url("https://source.unsplash.com/1600x900/?blossoms");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
